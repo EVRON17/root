@@ -1,0 +1,44 @@
+@charset "utf-8";
+	
+body{
+	background-color: salmon;
+}
+p{
+  text-align:left;
+  font-family: sans-serif;
+  font-size: 16px;
+	color: yellow
+}
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: yellow;
+}
+img {
+  float:center;
+  width: 275px;
+  margin: 29px;
+  border-color: yellow;
+  border-width: 4px;
+  border-style:solid;
+  border-radius: 20px;
+  height: auto
+}
